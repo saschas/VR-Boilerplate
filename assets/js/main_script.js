@@ -88,7 +88,7 @@ function disableVR() {
   controls.type ='orbit';
   controls.enableButton.classList.remove('hide');
   controls.disableButton.classList.add('hide');
-
+  renderer.setSize( canvas_width, canvas_height );
   //Note: No argument is needed to disable fullscreen
   disableFullScreenMode();
 }
