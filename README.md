@@ -3,9 +3,9 @@
 ### Setup
 * clone this repo: `git clone https://github.com/saschas/VR-Boilerplate`
 * Open your Terminal
+* cd into the location of the folder e.g. `cd <YOUR-PATH>/VR-Boilerplate-master`
 * If you have `npm` already installed: `npm install` in order to install the dependencies 
   otherwise follow the instructions [here](https://docs.npmjs.com/cli/install)
-* cd into the location of the folder e.g. `cd <YOUR-PATH>/VR-Boilerplate-master`
 * `gulp` and `gulp watch`
 * Create a local HTTP Server `python -m SimpleHTTPServer 8080` (mac only)
 * Open your Browser `localhost:8080`
